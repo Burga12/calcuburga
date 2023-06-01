@@ -38,9 +38,7 @@ public class Calc {
     public void substrac(String str){
         if (!activeSubstrac && to_operate == 0) to_operate = Double.parseDouble(str);
         else to_operate -= Double.parseDouble(str);
-        
-        System.out.println(Double.parseDouble(str));
-        System.out.println(to_operate);
+      
     }
     
     public void multiply(String str){
